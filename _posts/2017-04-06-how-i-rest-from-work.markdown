@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Holidays, Hawaii]
 ---
 
-```javscript
+```javascript
 const s = "Demo";
 alert(s);
 ```
