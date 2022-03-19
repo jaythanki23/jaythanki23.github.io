@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jay Thanki # add your name
 author-img: Jay B&W.jpg # add your photo
-about-author: I am a Software Developer. Always hungry to keep learning. # add description
+about-author: I am a Software Developer and I like to build full stack applications which can be of use to everyone. Always hungry to keep learning. # add description
 social-twitter: thankijay99
 # social-facebook: # add your Facebook handle
 social-github: jaythanki23 
@@ -19,7 +19,7 @@ social-linkedin: jaythanki99/
 social-email: thankijay99@gmail.com
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+# discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
