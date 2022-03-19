@@ -7,6 +7,7 @@
  *    IE on Windows Phone and in iOS.
  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&family=Roboto:wght@100&display=swap');
 
 html {
   line-height: 1.15;
@@ -143,8 +144,8 @@ strong {
 code,
 kbd,
 samp {
-/*   font-family: monospace, monospace; */
-   font-family: 'Poppins', sans-serif;
+  font-family: 'Inconsolata', monospace;
+/*    font-family: 'Poppins', sans-serif; */
   /* 1 */
   font-size: 1em;
   /* 2 */
