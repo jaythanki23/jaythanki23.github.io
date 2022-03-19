@@ -1,11 +1,11 @@
 ---
 layout: post
-title: React Basics
-date: 2022-03-11
+title: React Basics for Beginner/Intermediate Developers
+date: 2022-03-19
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [React js, Javascript]
+tags: [React js, Javascript, Frontend]
 ---
 
 
@@ -77,5 +77,14 @@ ReactDOM.render(element, document.getElementById('root'));
 When React sees an attribute in any user-defined component such as the Welcome component in this case it passes an object to this component. This component is called props. 
 
 So, we access this object with the 'props' keyword and use the 'name' key in this case to display the name.
+  
+## Conclusion
+
+The concepts described above are crucial to understand for any developer who wants to build meaningful projects using React. Of course, there's a huge difference between understanding a topic and actually implementing it so you should aim to implement what you have learned so the understanding of it is solidified.
+  
+## Further Resources
+  
+[React docs](https://reactjs.org/docs/hello-world.html) - Official documentation of React
+
 
   
