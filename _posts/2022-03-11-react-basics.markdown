@@ -80,7 +80,7 @@ So, we access this object with the 'props' keyword and use the 'name' key in thi
   
 ## Conclusion
 
-The concepts described above are crucial to understand for any developer who wants to build meaningful projects using React. Of course, there's a huge difference between understanding a topic and actually implementing it so you should aim to implement what you have learned so the understanding of it is solidified.
+The concepts described above are crucial to understand for any developer who wants to build meaningful projects using React. Of course, there's a huge difference between understanding a topic and actually implementing it so you should aim to implement what you have learned in order to solidified  your understanding of the topic.
   
 ## Further Resources
   
