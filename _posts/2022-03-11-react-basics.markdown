@@ -3,7 +3,7 @@ layout: post
 title: React Basics for Beginner/Intermediate Developers
 date: 2022-03-26
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: ReactCover.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [React js, Javascript, Frontend]
 ---
