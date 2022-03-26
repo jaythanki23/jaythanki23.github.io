@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Basics for Beginner/Intermediate Developers
-date: 2022-03-19
+date: 2022-03-26
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
@@ -78,9 +78,44 @@ When React sees an attribute in any user-defined component such as the Welcome c
 
 So, we access this object with the 'props' keyword and use the 'name' key in this case to display the name.
   
+## React Hooks
+
+So far we have only been dealing with "Stateless Components" i.e components that don't have any "state". State is what React uses to update the UI whenever it notices any change in the component. We use state whenever we need to update the UI based on a certain condition and this makes our component "Stateful". We can use state in our components using the "useState" hook which is the only way you can use state in a function component. 
+  
+Hooks are javascript functions that let us use state and other React features without writing a class. 
+  
+### useState
+
+```javascript
+import React, { useState } from 'react';
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+
+This is a simple example of a component that has a button which updates the value of the count variable by 1 when clicked. React re-renders the component everytime the state changes which in this case happens every time the button is clicked. 
+
+First, we import the useState hook and initialize it inside our component. This hook returns a state variable and a function to update the state and hence, we use array destructuring to receive the pair. The only argument to the useState function is the initial state of our variable which in this case is 0 since our counter starts at 0. We use the "setCount" function to set the value of count. 
+  
+State is a critical part of any React app and is tremendously helpful when we want to update the UI based on some condition.
+  
+There are many hooks such as useEffect, useContext, useNavigate, etc., with each serving a unique purpose. More can be read about hook here [Hooks](https://reactjs.org/docs/hooks-intro.html)
+  
+  
 ## Conclusion
 
-The concepts described above are crucial to understand for any developer who wants to build meaningful projects using React. Of course, there's a huge difference between understanding a topic and actually implementing it so you should aim to implement what you have learned in order to solidified  your understanding of the topic.
+The concepts described above are crucial to understand for any developer who wants to build meaningful projects using React. Of course, there's a huge difference between understanding a topic and actually implementing it so you should aim to implement what you have learned in order to solidified your understanding of the topic.
   
 ## Further Resources
   
