@@ -20,8 +20,6 @@ Let's take a variable x and initialize with a number 2.
 
 Now in most languages, variables are viewed as containers or buckets that contain all the data but in Python, it helps if we view them as pointers. Here, a pointer x points to some container in the memory that holds the number 2. Hence, we are not just creating a variable x but we are also creating an object with the value 2. This object contains its own attributes, methods, type and a unique id to identify it.
 
-![second image]({{site.baseurl}}/assets/img/jupyter2.jpg)
-
 Similarly, we can create a list and an object of this list will get created along with some metadata(attributes), and associated functionality(methods).
 
 ![third image]({{site.baseurl}}/assets/img/jupyter3.jpg)
@@ -40,7 +38,7 @@ Both **x** and **y** have the same id which means they are pointing to the same 
 
 ![fifth image]({{site.baseurl}}/assets/img/jupyter5.jpg)
 
-No. The reason is that in Python any object of type "int" is immutable and so when we increased the value of **x** by 5 we didn't increase the value of the object **2**, rather we created a new object in memory with the value "7" and made **x** point to this newly created object. The variable **y** is still pointing to the object with value "2". And **x**'s id has also changed which indicates that **x** is now pointing to another object in memory while **y**'s hasn't. Remember, variables in python should be best viewed as pointers.
+Nope. This is because in Python any object of type "int" is immutable and so when we increased the value of **x** by 5 we didn't increase the value of the object **2**, rather we created a new object in memory with the value "7" and made **x** point to this newly created object. The variable **y** is still pointing to the object with value "2". And **x**'s id has also changed which indicates that **x** is now pointing to another object in memory while **y**'s hasn't. Remember, variables in python should be best viewed as pointers.
 
 Objects of built-in types like (int, float, bool, str, tuple, unicode) are immutable.
 
